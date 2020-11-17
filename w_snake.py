@@ -3,8 +3,8 @@ import pygame
 
 pygame.init()
 
-WIN_X = 800
-WIN_Y = 600
+WIN_X = 1200
+WIN_Y = 800
 WIN = pygame.display.set_mode((WIN_X,WIN_Y))
 pygame.display.set_caption('snake game')
 font=pygame.font.SysFont('comicsans',40)
