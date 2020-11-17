@@ -6,7 +6,7 @@ pygame.init()
 WIN_X = 1200
 WIN_Y = 800
 WIN = pygame.display.set_mode((WIN_X,WIN_Y))
-pygame.display.set_caption('snake game')
+pygame.display.set_caption("Willem's snake game")
 font=pygame.font.SysFont('comicsans',40)
 
 #main function
