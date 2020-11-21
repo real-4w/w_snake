@@ -14,8 +14,8 @@ def main_menu():
     while 1:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                pygame.quit()
-                sys.exit()
+                pygame.quit()                                           # if user clicked the exit button , quit the game
+                sys.exit()                                              # and exit out of the program
             if event.type == pygame.MOUSEBUTTONDOWN:
                 main()
         WIN.fill((0,0,0))
