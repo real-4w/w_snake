@@ -6,7 +6,7 @@ pygame.init()
 WIN_X = 1200
 WIN_Y = 800
 WIN = pygame.display.set_mode((WIN_X,WIN_Y))
-pygame.display.set_caption('snake game')
+pygame.display.set_caption("Willem's snake game")
 font=pygame.font.SysFont('comicsans',40)
 
 #main function
@@ -14,8 +14,8 @@ def main_menu():
     while 1:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                pygame.quit()
-                sys.exit()
+                pygame.quit()                                           # if user clicked the exit button , quit the game
+                sys.exit()                                              # and exit out of the program
             if event.type == pygame.MOUSEBUTTONDOWN:
                 main()
         WIN.fill((0,0,0))
